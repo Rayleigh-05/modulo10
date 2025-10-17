@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Cédula - Módulo 10</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Validador de Cédula</h1>
+            <p class="subtitle">Algoritmo Módulo 10</p>
+            
+            <div class="input-group">
+                <label for="cedula">Ingrese la cédula:</label>
+                <input 
+                    type="text" 
+                    id="cedula" 
+                    placeholder="000-0000000-0" 
+                    maxlength="13"
+                >
+            </div>
+            
+            <button id="validar" class="btn">Validar Cédula</button>
+            
+            <div id="resultado" class="resultado"></div>
+            
+            <div class="info">
+                <h3>Información</h3>
+                <p>Formato válido: <strong>XXX-XXXXXXX-X</strong></p>
+                <p>Ejemplo: <strong>402-2050125-4</strong></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
